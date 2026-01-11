@@ -1,0 +1,30 @@
+{
+  "panel": {
+    "title": "Raccourcis Niri",
+    "loading": "Chargement...",
+    "error_read_file": "Impossible de lire la configuration Niri",
+    "no_data": "Aucune donnée",
+    "no_bindings": "Aucun raccourci trouvé dans la configuration",
+    "refresh_button": "Actualiser"
+  },
+  "main": {
+    "error": "ERREUR",
+    "cannot_get_home": "Impossible d'obtenir $HOME",
+    "read_error": "ERREUR DE LECTURE",
+    "exit_code": "CODE DE SORTIE",
+    "stderr": "STDERR",
+    "file_empty": "FICHIER VIDE",
+    "file_no_data": "Le fichier ne contient aucune donnée"
+  },
+  "settings": {
+    "custom_path_label": "Fichier de raccourcis personnalisés",
+    "custom_path_hint": "Chemin vers le fichier JSON avec les raccourcis personnalisés (supporte ~ pour home)",
+    "show_niri_bindings": "Afficher les raccourcis Niri",
+    "show_niri_hint": "Afficher les raccourcis de la configuration Niri",
+    "show_custom_bindings": "Afficher les raccourcis personnalisés",
+    "show_custom_hint": "Afficher les raccourcis du fichier JSON personnalisé",
+    "json_format_title": "Format JSON personnalisé",
+    "json_format_example": "{\n  \"categories\": [\n    {\n      \"title\": \"Mes Apps\",\n      \"binds\": [\n        { \"keys\": \"Super + T\", \"desc\": \"Terminal\" },\n        { \"keys\": \"Super + B\", \"desc\": \"Navigateur\" }\n      ]\n    }\n  ]\n}",
+    "refresh_button": "Actualiser les raccourcis"
+  }
+}

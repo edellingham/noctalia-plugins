@@ -1,0 +1,30 @@
+{
+  "panel": {
+    "title": "Niri 快捷键",
+    "loading": "加载中...",
+    "error_read_file": "无法读取 Niri 配置",
+    "no_data": "无数据",
+    "no_bindings": "配置中未找到快捷键",
+    "refresh_button": "刷新"
+  },
+  "main": {
+    "error": "错误",
+    "cannot_get_home": "无法获取 $HOME",
+    "read_error": "读取错误",
+    "exit_code": "退出代码",
+    "stderr": "STDERR",
+    "file_empty": "文件为空",
+    "file_no_data": "文件不包含数据"
+  },
+  "settings": {
+    "custom_path_label": "自定义快捷键文件",
+    "custom_path_hint": "自定义快捷键 JSON 文件路径（支持 ~ 表示主目录）",
+    "show_niri_bindings": "显示 Niri 快捷键",
+    "show_niri_hint": "显示 Niri 配置中的快捷键",
+    "show_custom_bindings": "显示自定义快捷键",
+    "show_custom_hint": "显示自定义 JSON 文件中的快捷键",
+    "json_format_title": "自定义 JSON 格式",
+    "json_format_example": "{\n  \"categories\": [\n    {\n      \"title\": \"我的应用\",\n      \"binds\": [\n        { \"keys\": \"Super + T\", \"desc\": \"终端\" },\n        { \"keys\": \"Super + B\", \"desc\": \"浏览器\" }\n      ]\n    }\n  ]\n}",
+    "refresh_button": "刷新快捷键"
+  }
+}

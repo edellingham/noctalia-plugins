@@ -1,0 +1,30 @@
+{
+  "panel": {
+    "title": "Niri Kısayolları",
+    "loading": "Yükleniyor...",
+    "error_read_file": "Niri yapılandırması okunamadı",
+    "no_data": "Veri yok",
+    "no_bindings": "Yapılandırmada kısayol bulunamadı",
+    "refresh_button": "Yenile"
+  },
+  "main": {
+    "error": "HATA",
+    "cannot_get_home": "$HOME alınamıyor",
+    "read_error": "OKUMA HATASI",
+    "exit_code": "ÇIKIŞ KODU",
+    "stderr": "STDERR",
+    "file_empty": "DOSYA BOŞ",
+    "file_no_data": "Dosya veri içermiyor"
+  },
+  "settings": {
+    "custom_path_label": "Özel kısayol dosyası",
+    "custom_path_hint": "Özel kısayolları içeren JSON dosyasının yolu (~ home için desteklenir)",
+    "show_niri_bindings": "Niri kısayollarını göster",
+    "show_niri_hint": "Niri yapılandırmasından kısayolları göster",
+    "show_custom_bindings": "Özel kısayolları göster",
+    "show_custom_hint": "Özel JSON dosyasından kısayolları göster",
+    "json_format_title": "Özel JSON formatı",
+    "json_format_example": "{\n  \"categories\": [\n    {\n      \"title\": \"Uygulamalarım\",\n      \"binds\": [\n        { \"keys\": \"Super + T\", \"desc\": \"Terminal\" },\n        { \"keys\": \"Super + B\", \"desc\": \"Tarayıcı\" }\n      ]\n    }\n  ]\n}",
+    "refresh_button": "Kısayolları yenile"
+  }
+}

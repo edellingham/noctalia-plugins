@@ -1,0 +1,30 @@
+{
+  "panel": {
+    "title": "Atajos de Niri",
+    "loading": "Cargando...",
+    "error_read_file": "No se pudo leer la configuración de Niri",
+    "no_data": "Sin datos",
+    "no_bindings": "No se encontraron atajos en la configuración",
+    "refresh_button": "Actualizar"
+  },
+  "main": {
+    "error": "ERROR",
+    "cannot_get_home": "No se puede obtener $HOME",
+    "read_error": "ERROR DE LECTURA",
+    "exit_code": "CÓDIGO DE SALIDA",
+    "stderr": "STDERR",
+    "file_empty": "ARCHIVO VACÍO",
+    "file_no_data": "El archivo no contiene datos"
+  },
+  "settings": {
+    "custom_path_label": "Archivo de atajos personalizados",
+    "custom_path_hint": "Ruta al archivo JSON con atajos personalizados (soporta ~ para home)",
+    "show_niri_bindings": "Mostrar atajos de Niri",
+    "show_niri_hint": "Mostrar atajos de la configuración de Niri",
+    "show_custom_bindings": "Mostrar atajos personalizados",
+    "show_custom_hint": "Mostrar atajos del archivo JSON personalizado",
+    "json_format_title": "Formato JSON personalizado",
+    "json_format_example": "{\n  \"categories\": [\n    {\n      \"title\": \"Mis Apps\",\n      \"binds\": [\n        { \"keys\": \"Super + T\", \"desc\": \"Terminal\" },\n        { \"keys\": \"Super + B\", \"desc\": \"Navegador\" }\n      ]\n    }\n  ]\n}",
+    "refresh_button": "Actualizar atajos"
+  }
+}

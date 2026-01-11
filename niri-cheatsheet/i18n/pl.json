@@ -1,0 +1,30 @@
+{
+  "panel": {
+    "title": "Skróty Niri",
+    "loading": "Ładowanie...",
+    "error_read_file": "Nie można odczytać konfiguracji Niri",
+    "no_data": "Brak danych",
+    "no_bindings": "Nie znaleziono skrótów w konfiguracji",
+    "refresh_button": "Odśwież"
+  },
+  "main": {
+    "error": "BŁĄD",
+    "cannot_get_home": "Nie można uzyskać $HOME",
+    "read_error": "BŁĄD ODCZYTU",
+    "exit_code": "KOD WYJŚCIA",
+    "stderr": "STDERR",
+    "file_empty": "PLIK PUSTY",
+    "file_no_data": "Plik nie zawiera danych"
+  },
+  "settings": {
+    "custom_path_label": "Plik niestandardowych skrótów",
+    "custom_path_hint": "Ścieżka do pliku JSON z niestandardowymi skrótami (obsługuje ~ dla katalogu domowego)",
+    "show_niri_bindings": "Pokaż skróty Niri",
+    "show_niri_hint": "Wyświetl skróty z konfiguracji Niri",
+    "show_custom_bindings": "Pokaż niestandardowe skróty",
+    "show_custom_hint": "Wyświetl skróty z niestandardowego pliku JSON",
+    "json_format_title": "Format JSON",
+    "json_format_example": "{\n  \"categories\": [\n    {\n      \"title\": \"Moje Aplikacje\",\n      \"binds\": [\n        { \"keys\": \"Super + T\", \"desc\": \"Terminal\" },\n        { \"keys\": \"Super + B\", \"desc\": \"Przeglądarka\" }\n      ]\n    }\n  ]\n}",
+    "refresh_button": "Odśwież skróty"
+  }
+}

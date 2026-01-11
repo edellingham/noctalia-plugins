@@ -1,0 +1,30 @@
+{
+  "panel": {
+    "title": "Горячие клавиши Niri",
+    "loading": "Загрузка...",
+    "error_read_file": "Не удалось прочитать конфигурацию Niri",
+    "no_data": "Нет данных",
+    "no_bindings": "Горячие клавиши не найдены в конфигурации",
+    "refresh_button": "Обновить"
+  },
+  "main": {
+    "error": "ОШИБКА",
+    "cannot_get_home": "Не удалось получить $HOME",
+    "read_error": "ОШИБКА ЧТЕНИЯ",
+    "exit_code": "КОД ВЫХОДА",
+    "stderr": "STDERR",
+    "file_empty": "ФАЙЛ ПУСТ",
+    "file_no_data": "Файл не содержит данных"
+  },
+  "settings": {
+    "custom_path_label": "Файл пользовательских горячих клавиш",
+    "custom_path_hint": "Путь к JSON-файлу с пользовательскими горячими клавишами (поддерживает ~ для home)",
+    "show_niri_bindings": "Показать горячие клавиши Niri",
+    "show_niri_hint": "Отображать горячие клавиши из конфигурации Niri",
+    "show_custom_bindings": "Показать пользовательские горячие клавиши",
+    "show_custom_hint": "Отображать горячие клавиши из пользовательского JSON-файла",
+    "json_format_title": "Формат JSON",
+    "json_format_example": "{\n  \"categories\": [\n    {\n      \"title\": \"Мои приложения\",\n      \"binds\": [\n        { \"keys\": \"Super + T\", \"desc\": \"Терминал\" },\n        { \"keys\": \"Super + B\", \"desc\": \"Браузер\" }\n      ]\n    }\n  ]\n}",
+    "refresh_button": "Обновить горячие клавиши"
+  }
+}

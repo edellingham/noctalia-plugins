@@ -1,0 +1,28 @@
+{
+  "id": "niri-cheatsheet",
+  "name": "Keybind Cheatsheet (Niri)",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "noctalia-dev",
+  "license": "MIT",
+  "repository": "https://github.com/noctalia-dev/noctalia-plugins",
+  "description": "Dynamic keyboard shortcuts cheatsheet for Niri compositor. Reads keybindings from Niri config and supports custom keybindings via JSON file.",
+  "tags": ["Bar", "Panel", "Productivity"],
+  "entryPoints": {
+    "main": "Main.qml",
+    "barWidget": "BarWidget.qml",
+    "panel": "Panel.qml",
+    "settings": "Settings.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "cheatsheetData": [],
+      "customKeybindsPath": "~/.config/niri/custom-keybinds.json",
+      "showNiriBindings": true,
+      "showCustomBindings": true
+    }
+  }
+}

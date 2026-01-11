@@ -1,0 +1,30 @@
+{
+  "panel": {
+    "title": "Гарячі клавіші Niri",
+    "loading": "Завантаження...",
+    "error_read_file": "Не вдалося прочитати конфігурацію Niri",
+    "no_data": "Немає даних",
+    "no_bindings": "Гарячі клавіші не знайдено в конфігурації",
+    "refresh_button": "Оновити"
+  },
+  "main": {
+    "error": "ПОМИЛКА",
+    "cannot_get_home": "Не вдалося отримати $HOME",
+    "read_error": "ПОМИЛКА ЧИТАННЯ",
+    "exit_code": "КОД ВИХОДУ",
+    "stderr": "STDERR",
+    "file_empty": "ФАЙЛ ПОРОЖНІЙ",
+    "file_no_data": "Файл не містить даних"
+  },
+  "settings": {
+    "custom_path_label": "Файл користувацьких гарячих клавіш",
+    "custom_path_hint": "Шлях до JSON-файлу з користувацькими гарячими клавішами (підтримує ~ для home)",
+    "show_niri_bindings": "Показати гарячі клавіші Niri",
+    "show_niri_hint": "Відображати гарячі клавіші з конфігурації Niri",
+    "show_custom_bindings": "Показати користувацькі гарячі клавіші",
+    "show_custom_hint": "Відображати гарячі клавіші з користувацького JSON-файлу",
+    "json_format_title": "Формат JSON",
+    "json_format_example": "{\n  \"categories\": [\n    {\n      \"title\": \"Мої програми\",\n      \"binds\": [\n        { \"keys\": \"Super + T\", \"desc\": \"Термінал\" },\n        { \"keys\": \"Super + B\", \"desc\": \"Браузер\" }\n      ]\n    }\n  ]\n}",
+    "refresh_button": "Оновити гарячі клавіші"
+  }
+}

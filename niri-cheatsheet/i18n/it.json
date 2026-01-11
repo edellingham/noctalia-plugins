@@ -1,0 +1,30 @@
+{
+  "panel": {
+    "title": "Scorciatoie Niri",
+    "loading": "Caricamento...",
+    "error_read_file": "Impossibile leggere la configurazione di Niri",
+    "no_data": "Nessun dato",
+    "no_bindings": "Nessuna scorciatoia trovata nella configurazione",
+    "refresh_button": "Aggiorna"
+  },
+  "main": {
+    "error": "ERRORE",
+    "cannot_get_home": "Impossibile ottenere $HOME",
+    "read_error": "ERRORE DI LETTURA",
+    "exit_code": "CODICE DI USCITA",
+    "stderr": "STDERR",
+    "file_empty": "FILE VUOTO",
+    "file_no_data": "Il file non contiene dati"
+  },
+  "settings": {
+    "custom_path_label": "File scorciatoie personalizzate",
+    "custom_path_hint": "Percorso del file JSON con scorciatoie personalizzate (supporta ~ per home)",
+    "show_niri_bindings": "Mostra scorciatoie Niri",
+    "show_niri_hint": "Visualizza scorciatoie dalla configurazione Niri",
+    "show_custom_bindings": "Mostra scorciatoie personalizzate",
+    "show_custom_hint": "Visualizza scorciatoie dal file JSON personalizzato",
+    "json_format_title": "Formato JSON personalizzato",
+    "json_format_example": "{\n  \"categories\": [\n    {\n      \"title\": \"Le mie App\",\n      \"binds\": [\n        { \"keys\": \"Super + T\", \"desc\": \"Terminale\" },\n        { \"keys\": \"Super + B\", \"desc\": \"Browser\" }\n      ]\n    }\n  ]\n}",
+    "refresh_button": "Aggiorna scorciatoie"
+  }
+}

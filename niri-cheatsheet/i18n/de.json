@@ -1,0 +1,30 @@
+{
+  "panel": {
+    "title": "Niri Tastenkombinationen",
+    "loading": "Laden...",
+    "error_read_file": "Niri-Konfiguration konnte nicht gelesen werden",
+    "no_data": "Keine Daten",
+    "no_bindings": "Keine Tastenkombinationen in der Konfiguration gefunden",
+    "refresh_button": "Aktualisieren"
+  },
+  "main": {
+    "error": "FEHLER",
+    "cannot_get_home": "$HOME kann nicht ermittelt werden",
+    "read_error": "LESEFEHLER",
+    "exit_code": "EXIT-CODE",
+    "stderr": "STDERR",
+    "file_empty": "DATEI LEER",
+    "file_no_data": "Datei enthält keine Daten"
+  },
+  "settings": {
+    "custom_path_label": "Benutzerdefinierte Tastenkombinationen-Datei",
+    "custom_path_hint": "Pfad zur JSON-Datei mit benutzerdefinierten Tastenkombinationen (~ für Home unterstützt)",
+    "show_niri_bindings": "Niri-Tastenkombinationen anzeigen",
+    "show_niri_hint": "Tastenkombinationen aus Niri-Konfiguration anzeigen",
+    "show_custom_bindings": "Benutzerdefinierte Tastenkombinationen anzeigen",
+    "show_custom_hint": "Tastenkombinationen aus benutzerdefinierter JSON-Datei anzeigen",
+    "json_format_title": "Benutzerdefiniertes JSON-Format",
+    "json_format_example": "{\n  \"categories\": [\n    {\n      \"title\": \"Meine Apps\",\n      \"binds\": [\n        { \"keys\": \"Super + T\", \"desc\": \"Terminal\" },\n        { \"keys\": \"Super + B\", \"desc\": \"Browser\" }\n      ]\n    }\n  ]\n}",
+    "refresh_button": "Tastenkombinationen aktualisieren"
+  }
+}

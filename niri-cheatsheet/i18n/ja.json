@@ -1,0 +1,30 @@
+{
+  "panel": {
+    "title": "Niri ショートカット",
+    "loading": "読み込み中...",
+    "error_read_file": "Niri設定を読み取れませんでした",
+    "no_data": "データなし",
+    "no_bindings": "設定にショートカットが見つかりません",
+    "refresh_button": "更新"
+  },
+  "main": {
+    "error": "エラー",
+    "cannot_get_home": "$HOMEを取得できません",
+    "read_error": "読み取りエラー",
+    "exit_code": "終了コード",
+    "stderr": "STDERR",
+    "file_empty": "ファイルが空です",
+    "file_no_data": "ファイルにデータがありません"
+  },
+  "settings": {
+    "custom_path_label": "カスタムショートカットファイル",
+    "custom_path_hint": "カスタムショートカットのJSONファイルパス（~でホームをサポート）",
+    "show_niri_bindings": "Niriショートカットを表示",
+    "show_niri_hint": "Niri設定のショートカットを表示",
+    "show_custom_bindings": "カスタムショートカットを表示",
+    "show_custom_hint": "カスタムJSONファイルのショートカットを表示",
+    "json_format_title": "カスタムJSON形式",
+    "json_format_example": "{\n  \"categories\": [\n    {\n      \"title\": \"マイアプリ\",\n      \"binds\": [\n        { \"keys\": \"Super + T\", \"desc\": \"ターミナル\" },\n        { \"keys\": \"Super + B\", \"desc\": \"ブラウザ\" }\n      ]\n    }\n  ]\n}",
+    "refresh_button": "ショートカットを更新"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "panel": {
+    "title": "Niri Cheat Sheet",
+    "loading": "Loading...",
+    "error_read_file": "Could not read Niri config",
+    "no_data": "No data",
+    "no_bindings": "No keybindings found in config",
+    "refresh_button": "Refresh"
+  },
+  "main": {
+    "error": "ERROR",
+    "cannot_get_home": "Cannot get $HOME",
+    "read_error": "READ ERROR",
+    "exit_code": "EXIT CODE",
+    "stderr": "STDERR",
+    "file_empty": "FILE EMPTY",
+    "file_no_data": "File contains no data"
+  },
+  "settings": {
+    "custom_path_label": "Custom Keybindings File",
+    "custom_path_hint": "Path to JSON file with custom keybindings (supports ~ for home)",
+    "show_niri_bindings": "Show Niri Bindings",
+    "show_niri_hint": "Display keybindings from Niri config",
+    "show_custom_bindings": "Show Custom Bindings",
+    "show_custom_hint": "Display keybindings from custom JSON file",
+    "json_format_title": "Custom JSON Format",
+    "json_format_example": "{\n  \"categories\": [\n    {\n      \"title\": \"My Apps\",\n      \"binds\": [\n        { \"keys\": \"Super + T\", \"desc\": \"Terminal\" },\n        { \"keys\": \"Super + B\", \"desc\": \"Browser\" }\n      ]\n    }\n  ]\n}",
+    "refresh_button": "Refresh Keybindings"
+  }
+}
