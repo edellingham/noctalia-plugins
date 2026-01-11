@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "id": "niri-cheatsheet",
+      "name": "Keybind Cheatsheet (Niri)",
+      "version": "1.0.0",
+      "author": "YOUR_NAME",
+      "description": "Dynamic keyboard shortcuts cheatsheet for Niri compositor. Reads keybindings from Niri config and supports custom keybindings via JSON file.",
+      "repository": "https://github.com/YOUR_USERNAME/YOUR_REPO",
+      "minNoctaliaVersion": "3.6.0",
+      "license": "MIT",
+      "tags": ["Bar", "Panel", "Productivity"],
+      "lastUpdated": "2026-01-11T00:00:00Z"
+    }
+  ]
+}
